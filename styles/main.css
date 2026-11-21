@@ -190,6 +190,16 @@ footer {
 	display: block;
 }
 
+.slicknav_nav ul ul {
+	position: absolute;
+	left: 100%; /* Pushes it directly to the right of the 1st tier */
+	top: 0;
+	width: 200px; /* Set a fixed width for the flyout */
+	background: #333; /* Match your menu background */
+	z-index: 999;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
 .dropdown {
 	left: 0;
 	right: 0;
